@@ -110,12 +110,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DC19A5F1CDD1C9200986AB9 /* Build configuration list for PBXNativeTarget "BonusCalc" */;
 			buildPhases = (
+				B8743EDF3FCC699DA2DDEF33 /* 📦 Check Pods Manifest.lock */,
 				54F8243416E86E620864C685 /* [CP] Check Pods Manifest.lock */,
 				4DC19A441CDD1C9200986AB9 /* Sources */,
 				4DC19A451CDD1C9200986AB9 /* Frameworks */,
 				4DC19A461CDD1C9200986AB9 /* Resources */,
 				8F8CC82A71CF6CDDB224EB3D /* [CP] Embed Pods Frameworks */,
 				2AFBFE0C50B3ECC16D9A55BD /* [CP] Copy Pods Resources */,
+				0F383B921A29218BA6769CD1 /* 📦 Embed Pods Frameworks */,
+				53098558CE8366D784836674 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +175,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F383B921A29218BA6769CD1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonusCalc/Pods-BonusCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2AFBFE0C50B3ECC16D9A55BD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +198,21 @@
 			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonusCalc/Pods-BonusCalc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53098558CE8366D784836674 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +248,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BonusCalc/Pods-BonusCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8743EDF3FCC699DA2DDEF33 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -1,0 +1,29 @@
+PODS:
+  - SVProgressHUD (2.1.2)
+  - TRCurrencyTextField (0.1.1)
+
+DEPENDENCIES:
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - TRCurrencyTextField (from `https://github.com/thiagoross/TRCurrencyTextField.git`)
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  TRCurrencyTextField:
+    :git: https://github.com/thiagoross/TRCurrencyTextField.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: cbf9eea80216823fd6df83370162d9857e59c1ca
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  TRCurrencyTextField:
+    :commit: 23ea6ab3b5c5ba1381a755f9aa333f9d67b927d2
+    :git: https://github.com/thiagoross/TRCurrencyTextField.git
+
+SPEC CHECKSUMS:
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TRCurrencyTextField: a942d5bd9cffc3fcf0fa2661e712adc1404df97b
+
+PODFILE CHECKSUM: 1c559b67bc7cb6630f2b20b52dc3c124a7a58a1e
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01897AAA61E347CFB11A04AC092490A0 /* TRLocaleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DF5697C9B7FEC5050A3A60C33232D58 /* TRLocaleHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04546C4BA070AC64BA27DBC7DA798C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		1B7E029594DE4F97AD2EEE4F202B01AF /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 051511A8789AE528E0EE9BF52F35046E /* SVRadialGradientLayer.m */; };
+		1DF3702AD8EF156B3B8C6B6403FF09F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */; };
+		3BA6C946E68E7658A086636FC82798C0 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D341C6E9238F4409C9D074DE4B30564 /* SVProgressHUD-dummy.m */; };
+		46A6FB3E297007733082ACC774B88D4E /* Pods-BonusCalc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E862C4902C457244E237079D60FF8FDB /* Pods-BonusCalc-dummy.m */; };
+		4BD7FD7485E3182DD2D86A74EAD6C1E2 /* TRCurrencyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 254CDF7F4C7BD950D660447D9A0CC9BA /* TRCurrencyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FD7CE5FF9495562C5B4A100E6536264 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B6BEB8B5A972E2495ABEA03A79A277 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70C2FF33428B92BD2151BC5BFC93DDE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		767F347F5DEF0603F70FD094E50B32FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC32878090C4B2B93381956161EC0930 /* Foundation.framework */; };
+		8A9669571F10FB467F79EF7CFF45E700 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F46E7ACAC2D22CCC4288CAA93A52A19 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D7309C659D9D9930D37FBA62AD534AF /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E6B451C6D513F382A63C932256F26 /* SVIndefiniteAnimatedView.m */; };
+		8DEF7886A161A4D538C789D9DA3566E3 /* TRCurrencyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F4719C88FF0EEFF532D74C89129E84ED /* TRCurrencyTextField.m */; };
+		90A9B5A99846B19FF2BB8E5CAA986A36 /* TRCurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61871F86FA0511589FA1F8466C4DF9E2 /* TRCurrencyTextField-dummy.m */; };
+		927480BAC9D1C61A173C4390DD7DE00A /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D55F15C4B1DCD7E5D438B6C861D4D3A /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB2366BCA8B0B155F54BC312E30AB10 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17629F6A364365EF760BF04A36654F77 /* SVProgressHUD.m */; };
+		A682DE6D4B5A2AC958043C33CE6E6183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF675A168132FD52AED630F977FE906 /* UIKit.framework */; };
+		A91028AEA632EDA7D898A183B1BCC702 /* TRFormatterHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EAE10E84636C38C45FD66EB9EDD1C8 /* TRFormatterHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBCD7C4DEE4E79C5484A0861CC3C4F9E /* TRLocaleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F6846C371AF3D54EEA5A5F5BF2464 /* TRLocaleHelper.m */; };
+		C5F6E9B48563FB3AB89673282003B0D2 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6652FFAA41AE7778B06C2B45A38E07C5 /* SVProgressAnimatedView.m */; };
+		DD7B6123DD5417752C22A3D47DE29C86 /* TRFormatterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCC54CDD5A430EAA37E794A863D0EE0 /* TRFormatterHelper.m */; };
+		DDAB110FD8B498D2D1C80D67098216EA /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = D7F263C2AE7CE0DE4E5D9CB5DEBCCB2B /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3329963191CAA4DAD7EA793A9D3E0371 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2185565BF285898DA773F3CAB033762C;
+			remoteInfo = SVProgressHUD;
+		};
+		9ADFCAA44A97EA3A656A0DCE546D2FFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A268E22184FDC4718794E5FCCE833B1E;
+			remoteInfo = TRCurrencyTextField;
+		};
+		D85B317AE7834D9965CDAADD288BDA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48ED7B5F18D71B2FA0C69461717D1985;
+			remoteInfo = "TRCurrencyTextField-TRCurrencyTextField";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051511A8789AE528E0EE9BF52F35046E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		17629F6A364365EF760BF04A36654F77 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		1B31F7E54F4BC1B757721EC214B91D5F /* Pods-BonusCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BonusCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE44C57962415E30811D8995AC123E7 /* TRCurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRCurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		1D55F15C4B1DCD7E5D438B6C861D4D3A /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		254CDF7F4C7BD950D660447D9A0CC9BA /* TRCurrencyTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRCurrencyTextField.h; path = Pod/Classes/TRCurrencyTextField.h; sourceTree = "<group>"; };
+		30F571883A3A5A3B7B721A80803E760F /* ResourceBundle-TRCurrencyTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TRCurrencyTextField-Info.plist"; sourceTree = "<group>"; };
+		3F46E7ACAC2D22CCC4288CAA93A52A19 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		45EAE10E84636C38C45FD66EB9EDD1C8 /* TRFormatterHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRFormatterHelper.h; path = Pod/Classes/TRFormatterHelper.h; sourceTree = "<group>"; };
+		4DB32DFA41E669D7A83B7CD731A44506 /* Pods-BonusCalc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BonusCalc-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BF675A168132FD52AED630F977FE906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C2BDE22072A6815410B8EEDC1DAD1B6 /* Pods-BonusCalc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BonusCalc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61871F86FA0511589FA1F8466C4DF9E2 /* TRCurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRCurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		6652FFAA41AE7778B06C2B45A38E07C5 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		683595468250DDABF91F85DE1ECD6EA6 /* TRCurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRCurrencyTextField.xcconfig; sourceTree = "<group>"; };
+		6A7D0CFA04121222B2E1F08BA5DCD39F /* TRCurrencyTextField.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TRCurrencyTextField.bundle; path = TRCurrencyTextField.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D341C6E9238F4409C9D074DE4B30564 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		72E0932545269DE7A864D81B18D59083 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		783F6846C371AF3D54EEA5A5F5BF2464 /* TRLocaleHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRLocaleHelper.m; path = Pod/Classes/TRLocaleHelper.m; sourceTree = "<group>"; };
+		8DF5697C9B7FEC5050A3A60C33232D58 /* TRLocaleHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRLocaleHelper.h; path = Pod/Classes/TRLocaleHelper.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A24DC16D9FC1339CF8B6A56A59ACEEF /* libTRCurrencyTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRCurrencyTextField.a; path = libTRCurrencyTextField.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF166C68DF10DB135C227FA04527031 /* Pods-BonusCalc-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BonusCalc-resources.sh"; sourceTree = "<group>"; };
+		AD8AF3118C79FD28FE34FF32EE1D3FCE /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		ADCC54CDD5A430EAA37E794A863D0EE0 /* TRFormatterHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRFormatterHelper.m; path = Pod/Classes/TRFormatterHelper.m; sourceTree = "<group>"; };
+		CAB62633939933219402BC37D55091A7 /* Pods-BonusCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BonusCalc.release.xcconfig"; sourceTree = "<group>"; };
+		D1E83ACD6F2253B1D19245A0046C9061 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F263C2AE7CE0DE4E5D9CB5DEBCCB2B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E6F8D06A9AEEDFA4ED0730196C62D130 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E862C4902C457244E237079D60FF8FDB /* Pods-BonusCalc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BonusCalc-dummy.m"; sourceTree = "<group>"; };
+		E9B6BEB8B5A972E2495ABEA03A79A277 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		EC32878090C4B2B93381956161EC0930 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F18E6B451C6D513F382A63C932256F26 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		F4719C88FF0EEFF532D74C89129E84ED /* TRCurrencyTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRCurrencyTextField.m; path = Pod/Classes/TRCurrencyTextField.m; sourceTree = "<group>"; };
+		F894DC6910A92C72FFED4C88D553C93E /* Pods-BonusCalc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BonusCalc-frameworks.sh"; sourceTree = "<group>"; };
+		FA93F7F04EBAE9182A44CD9A02714150 /* libPods-BonusCalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BonusCalc.a"; path = "libPods-BonusCalc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E60E0126400162CBFFE5574B6996D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04546C4BA070AC64BA27DBC7DA798C3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0E76F00533248EF931324CF0D8100A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767F347F5DEF0603F70FD094E50B32FE /* Foundation.framework in Frameworks */,
+				A682DE6D4B5A2AC958043C33CE6E6183 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476668E0D94FB4135F96624DB4B86EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB28633A08F54C04350A2B754445C7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70C2FF33428B92BD2151BC5BFC93DDE4 /* Foundation.framework in Frameworks */,
+				1DF3702AD8EF156B3B8C6B6403FF09F4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E9260013FA223D81B907D9285F6EA1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		321612390DD6D88A1F33EBB509482553 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4492F390E923A18BF099B946F2BEBF21 /* SVProgressHUD */,
+				A4D50361563ECA6992A2C06951A94B91 /* TRCurrencyTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4492F390E923A18BF099B946F2BEBF21 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D7F263C2AE7CE0DE4E5D9CB5DEBCCB2B /* SVIndefiniteAnimatedView.h */,
+				F18E6B451C6D513F382A63C932256F26 /* SVIndefiniteAnimatedView.m */,
+				1D55F15C4B1DCD7E5D438B6C861D4D3A /* SVProgressAnimatedView.h */,
+				6652FFAA41AE7778B06C2B45A38E07C5 /* SVProgressAnimatedView.m */,
+				3F46E7ACAC2D22CCC4288CAA93A52A19 /* SVProgressHUD.h */,
+				17629F6A364365EF760BF04A36654F77 /* SVProgressHUD.m */,
+				E9B6BEB8B5A972E2495ABEA03A79A277 /* SVRadialGradientLayer.h */,
+				051511A8789AE528E0EE9BF52F35046E /* SVRadialGradientLayer.m */,
+				D021C29C5AB5EDFDBF3066D788574236 /* Resources */,
+				56E2440ED6521DECEBC970FCF3EDF471 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		56E2440ED6521DECEBC970FCF3EDF471 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72E0932545269DE7A864D81B18D59083 /* SVProgressHUD.xcconfig */,
+				6D341C6E9238F4409C9D074DE4B30564 /* SVProgressHUD-dummy.m */,
+				E6F8D06A9AEEDFA4ED0730196C62D130 /* SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				321612390DD6D88A1F33EBB509482553 /* Pods */,
+				B4D1ED0061C7EC5D5D6883AE93393682 /* Products */,
+				CCBFC8C21707E93254C54FDE9CEF5C9F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DE9E8D33989BAC6975CA120F2A94EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F571883A3A5A3B7B721A80803E760F /* ResourceBundle-TRCurrencyTextField-Info.plist */,
+				683595468250DDABF91F85DE1ECD6EA6 /* TRCurrencyTextField.xcconfig */,
+				61871F86FA0511589FA1F8466C4DF9E2 /* TRCurrencyTextField-dummy.m */,
+				1BE44C57962415E30811D8995AC123E7 /* TRCurrencyTextField-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TRCurrencyTextField";
+			sourceTree = "<group>";
+		};
+		A4D50361563ECA6992A2C06951A94B91 /* TRCurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				254CDF7F4C7BD950D660447D9A0CC9BA /* TRCurrencyTextField.h */,
+				F4719C88FF0EEFF532D74C89129E84ED /* TRCurrencyTextField.m */,
+				45EAE10E84636C38C45FD66EB9EDD1C8 /* TRFormatterHelper.h */,
+				ADCC54CDD5A430EAA37E794A863D0EE0 /* TRFormatterHelper.m */,
+				8DF5697C9B7FEC5050A3A60C33232D58 /* TRLocaleHelper.h */,
+				783F6846C371AF3D54EEA5A5F5BF2464 /* TRLocaleHelper.m */,
+				A2DE9E8D33989BAC6975CA120F2A94EF /* Support Files */,
+			);
+			name = TRCurrencyTextField;
+			path = TRCurrencyTextField;
+			sourceTree = "<group>";
+		};
+		B4D1ED0061C7EC5D5D6883AE93393682 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA93F7F04EBAE9182A44CD9A02714150 /* libPods-BonusCalc.a */,
+				D1E83ACD6F2253B1D19245A0046C9061 /* libSVProgressHUD.a */,
+				9A24DC16D9FC1339CF8B6A56A59ACEEF /* libTRCurrencyTextField.a */,
+				6A7D0CFA04121222B2E1F08BA5DCD39F /* TRCurrencyTextField.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBFC8C21707E93254C54FDE9CEF5C9F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9B22FC5DDC8D47AC8EA70C4795B7CC /* Pods-BonusCalc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D021C29C5AB5EDFDBF3066D788574236 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AD8AF3118C79FD28FE34FF32EE1D3FCE /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE9B22FC5DDC8D47AC8EA70C4795B7CC /* Pods-BonusCalc */ = {
+			isa = PBXGroup;
+			children = (
+				5C2BDE22072A6815410B8EEDC1DAD1B6 /* Pods-BonusCalc-acknowledgements.markdown */,
+				4DB32DFA41E669D7A83B7CD731A44506 /* Pods-BonusCalc-acknowledgements.plist */,
+				E862C4902C457244E237079D60FF8FDB /* Pods-BonusCalc-dummy.m */,
+				F894DC6910A92C72FFED4C88D553C93E /* Pods-BonusCalc-frameworks.sh */,
+				ACF166C68DF10DB135C227FA04527031 /* Pods-BonusCalc-resources.sh */,
+				1B31F7E54F4BC1B757721EC214B91D5F /* Pods-BonusCalc.debug.xcconfig */,
+				CAB62633939933219402BC37D55091A7 /* Pods-BonusCalc.release.xcconfig */,
+			);
+			name = "Pods-BonusCalc";
+			path = "Target Support Files/Pods-BonusCalc";
+			sourceTree = "<group>";
+		};
+		E5E9260013FA223D81B907D9285F6EA1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC32878090C4B2B93381956161EC0930 /* Foundation.framework */,
+				E0203FCF2E38F9E0B8C4E69853543A3E /* QuartzCore.framework */,
+				5BF675A168132FD52AED630F977FE906 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C5C41075DE830B8488927FA7484EB9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD7FD7485E3182DD2D86A74EAD6C1E2 /* TRCurrencyTextField.h in Headers */,
+				A91028AEA632EDA7D898A183B1BCC702 /* TRFormatterHelper.h in Headers */,
+				01897AAA61E347CFB11A04AC092490A0 /* TRLocaleHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C21420BB4EE286E1EDD574C41A0E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAB110FD8B498D2D1C80D67098216EA /* SVIndefiniteAnimatedView.h in Headers */,
+				927480BAC9D1C61A173C4390DD7DE00A /* SVProgressAnimatedView.h in Headers */,
+				8A9669571F10FB467F79EF7CFF45E700 /* SVProgressHUD.h in Headers */,
+				6FD7CE5FF9495562C5B4A100E6536264 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06F89DAE28F44722B93413E8BB7E3A61 /* Pods-BonusCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FEB835D4DD384B1E6C3E0B1B3B8E48 /* Build configuration list for PBXNativeTarget "Pods-BonusCalc" */;
+			buildPhases = (
+				B41884F181717F4DAA23EAD648706C54 /* Sources */,
+				20E60E0126400162CBFFE5574B6996D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4632C74C7E2501A940372959AA072831 /* PBXTargetDependency */,
+				066800291539B2534A5114C0EB921F55 /* PBXTargetDependency */,
+			);
+			name = "Pods-BonusCalc";
+			productName = "Pods-BonusCalc";
+			productReference = FA93F7F04EBAE9182A44CD9A02714150 /* libPods-BonusCalc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2185565BF285898DA773F3CAB033762C /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8ACECA3211EEFFF5D43DEC96BFA51A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				9528226BE79CEE71636029F40BA2F3F4 /* Sources */,
+				AB28633A08F54C04350A2B754445C7B3 /* Frameworks */,
+				17C21420BB4EE286E1EDD574C41A0E1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = D1E83ACD6F2253B1D19245A0046C9061 /* libSVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48ED7B5F18D71B2FA0C69461717D1985 /* TRCurrencyTextField-TRCurrencyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707137FB70317D31A9BA75BAC37DD493 /* Build configuration list for PBXNativeTarget "TRCurrencyTextField-TRCurrencyTextField" */;
+			buildPhases = (
+				8E4DC76144A8A2ED75F1D0FB7FF99700 /* Sources */,
+				476668E0D94FB4135F96624DB4B86EAF /* Frameworks */,
+				EF8D13F47B1596069E276AF2BC459D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TRCurrencyTextField-TRCurrencyTextField";
+			productName = "TRCurrencyTextField-TRCurrencyTextField";
+			productReference = 6A7D0CFA04121222B2E1F08BA5DCD39F /* TRCurrencyTextField.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A268E22184FDC4718794E5FCCE833B1E /* TRCurrencyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A43F963AA7BBEAF7834CB81B0ACA7CE /* Build configuration list for PBXNativeTarget "TRCurrencyTextField" */;
+			buildPhases = (
+				402BCE3A20B6AD849625644F96A31368 /* Sources */,
+				3B0E76F00533248EF931324CF0D8100A /* Frameworks */,
+				0C5C41075DE830B8488927FA7484EB9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30E9407F1D11E19690350995CC977C53 /* PBXTargetDependency */,
+			);
+			name = TRCurrencyTextField;
+			productName = TRCurrencyTextField;
+			productReference = 9A24DC16D9FC1339CF8B6A56A59ACEEF /* libTRCurrencyTextField.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B4D1ED0061C7EC5D5D6883AE93393682 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F89DAE28F44722B93413E8BB7E3A61 /* Pods-BonusCalc */,
+				2185565BF285898DA773F3CAB033762C /* SVProgressHUD */,
+				A268E22184FDC4718794E5FCCE833B1E /* TRCurrencyTextField */,
+				48ED7B5F18D71B2FA0C69461717D1985 /* TRCurrencyTextField-TRCurrencyTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8D13F47B1596069E276AF2BC459D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402BCE3A20B6AD849625644F96A31368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A9B5A99846B19FF2BB8E5CAA986A36 /* TRCurrencyTextField-dummy.m in Sources */,
+				8DEF7886A161A4D538C789D9DA3566E3 /* TRCurrencyTextField.m in Sources */,
+				DD7B6123DD5417752C22A3D47DE29C86 /* TRFormatterHelper.m in Sources */,
+				BBCD7C4DEE4E79C5484A0861CC3C4F9E /* TRLocaleHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4DC76144A8A2ED75F1D0FB7FF99700 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9528226BE79CEE71636029F40BA2F3F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7309C659D9D9930D37FBA62AD534AF /* SVIndefiniteAnimatedView.m in Sources */,
+				C5F6E9B48563FB3AB89673282003B0D2 /* SVProgressAnimatedView.m in Sources */,
+				3BA6C946E68E7658A086636FC82798C0 /* SVProgressHUD-dummy.m in Sources */,
+				9EB2366BCA8B0B155F54BC312E30AB10 /* SVProgressHUD.m in Sources */,
+				1B7E029594DE4F97AD2EEE4F202B01AF /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B41884F181717F4DAA23EAD648706C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A6FB3E297007733082ACC774B88D4E /* Pods-BonusCalc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		066800291539B2534A5114C0EB921F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRCurrencyTextField;
+			target = A268E22184FDC4718794E5FCCE833B1E /* TRCurrencyTextField */;
+			targetProxy = 9ADFCAA44A97EA3A656A0DCE546D2FFA /* PBXContainerItemProxy */;
+		};
+		30E9407F1D11E19690350995CC977C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TRCurrencyTextField-TRCurrencyTextField";
+			target = 48ED7B5F18D71B2FA0C69461717D1985 /* TRCurrencyTextField-TRCurrencyTextField */;
+			targetProxy = D85B317AE7834D9965CDAADD288BDA95 /* PBXContainerItemProxy */;
+		};
+		4632C74C7E2501A940372959AA072831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 2185565BF285898DA773F3CAB033762C /* SVProgressHUD */;
+			targetProxy = 3329963191CAA4DAD7EA793A9D3E0371 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15BBDDF6137BFFDA6D4664F7DEEC1892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683595468250DDABF91F85DE1ECD6EA6 /* TRCurrencyTextField.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TRCurrencyTextField";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TRCurrencyTextField/ResourceBundle-TRCurrencyTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = TRCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1A83DC91F7D708A8F6D6D5DAD00B6FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B31F7E54F4BC1B757721EC214B91D5F /* Pods-BonusCalc.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		226A828B3C52BD91B36F06D793B7B474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB62633939933219402BC37D55091A7 /* Pods-BonusCalc.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4ED5C23FB79EE081D3ADBCA00488928C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683595468250DDABF91F85DE1ECD6EA6 /* TRCurrencyTextField.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TRCurrencyTextField";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TRCurrencyTextField/ResourceBundle-TRCurrencyTextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = TRCurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5C7F0A22F68C103F1E46E7C39313A621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683595468250DDABF91F85DE1ECD6EA6 /* TRCurrencyTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRCurrencyTextField/TRCurrencyTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7B20A2852212D6244D61A0D0259313A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E0932545269DE7A864D81B18D59083 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3886EB27545FC6041983688441FD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E0932545269DE7A864D81B18D59083 /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D5F58EE231DC3674BC756D31AD841118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683595468250DDABF91F85DE1ECD6EA6 /* TRCurrencyTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRCurrencyTextField/TRCurrencyTextField-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A43F963AA7BBEAF7834CB81B0ACA7CE /* Build configuration list for PBXNativeTarget "TRCurrencyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7F0A22F68C103F1E46E7C39313A621 /* Debug */,
+				D5F58EE231DC3674BC756D31AD841118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707137FB70317D31A9BA75BAC37DD493 /* Build configuration list for PBXNativeTarget "TRCurrencyTextField-TRCurrencyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED5C23FB79EE081D3ADBCA00488928C /* Debug */,
+				15BBDDF6137BFFDA6D4664F7DEEC1892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8ACECA3211EEFFF5D43DEC96BFA51A /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B20A2852212D6244D61A0D0259313A6 /* Debug */,
+				CA3886EB27545FC6041983688441FD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FEB835D4DD384B1E6C3E0B1B3B8E48 /* Build configuration list for PBXNativeTarget "Pods-BonusCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A83DC91F7D708A8F6D6D5DAD00B6FE5 /* Debug */,
+				226A828B3C52BD91B36F06D793B7B474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
